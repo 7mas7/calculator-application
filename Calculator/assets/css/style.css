@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #00000018;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app {
+    width: 300px;
+    height: equal-button;
+    background: linear-gradient(187deg, hwb(240deg 96% 3% / 74%), #cbcaca99);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px 9px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(244, 244, 247, 0.3);
+}
+
+
+.calc-input {
+    width: -webkit-fill-available;
+    height: 140px;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 1px black;
+    margin-top: 15px;
+    resize: none;
+}
+
+input.equal-input {
+    width: -webkit-fill-available;
+    height: auto;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 45px;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.row {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+button.calc-button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    outline: none;
+    margin: 2px;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+    color: #b5c4ce;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0 0 1px grey;
+    background-color: #f3f5f7d1;
+    border-radius: 50%;
+    box-shadow: inset 6px -2px 7px 3px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#clear-button
+{
+	background-color: #ffb82f;
+	color: white;
+}
+
+button.calc-button.special-signs {
+    background: rgba(254, 185, 45, 0.28);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(8.4px);
+    border: 1px solid rgba(254, 185, 45, 0.3);
+    color: #a89b7a;
+}
+
+button.calc-buttons-signs
+{
+	background-color: red;
+}
+
+button.calc-buttons-signs {
+    background-color: #e0d5e9;
+    color: #4e0d76;
+}
+
+
+button#submit-button {
+    border-radius: 19px;
+    background: #9b2bf0;
+    color: white;
+    cursor: pointer;
+}
+
+.row.row-special {
+    float: right;
+    margin-right: 9%;
+    flex-direction: column;
+}
+
+#delete-num-button
+{
+	background: #ff003052;
+    color: white;
+}

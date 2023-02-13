@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator App</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+
+
+<div class="container">
+	<div class="app">
+	   <textarea type="number" class="calc-input" disabled=""></textarea>
+	   <input type="text" class="equal-input" disabled="">
+	   <div class="theme">
+	   	<div class="row">
+
+	   	</div>
+	   </div>
+	   <div class="buttons">
+	   	<div class="row">
+	   		<button class="calc-button" id="clear-button" notNum='true'>C</button>
+	   		<button class="calc-button special-signs">(</button>
+	   		<button class="calc-button special-signs">)</button>
+	   		<button class="calc-button calc-buttons-signs" sign='*'>x</button>
+	   	</div>
+	   	<div class="row">
+	   		<button class="calc-button special-signs">-</button>
+	   		<button class="calc-button special-signs">%</button>
+	   		<button class="calc-button special-signs">C</button>
+	   		<button class="calc-button calc-buttons-signs" sign='/'>÷</button>
+	   	</div>
+	   	<div class="row">
+	   		<button class="calc-button">7</button>
+	   		<button class="calc-button">8</button>
+	   		<button class="calc-button">9</button>
+	   		<button class="calc-button calc-buttons-signs">-</button>
+	   	</div>
+	   	<div class="row">
+	   		<button class="calc-button">4</button>
+	   		<button class="calc-button">5</button>
+	   		<button class="calc-button">3</button>
+	   		<button class="calc-button calc-buttons-signs">+</button>
+	   	</div>
+
+	   <div class="row">
+	   		<button class="calc-button">3</button>
+	   		<button class="calc-button">2</button>
+	   		<button class="calc-button">1</button>
+	   		<button class="calc-button calc-buttons-signs" id="submit-button" notNum='true'>=</button>
+  			</div>
+   		   
+  			<div class="row">
+  			<button class="calc-button">.</button>
+	   		<button class="calc-button">0</button>
+	   		<button class="calc-button">10</button>
+	   		<button class="calc-button" id="delete-num-button" notNum='true'><i class="fa fa-window-close" aria-hidden="true"></i></button>	
+  			</div>
+
+	   </div>
+	</div>
+</div>
+
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
